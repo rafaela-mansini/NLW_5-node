@@ -1,0 +1,22 @@
+{
+  "name": "nlw_5-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaela-mansini/NLW_5-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaela-mansini/NLW_5-node/issues"
+  },
+  "homepage": "https://github.com/rafaela-mansini/NLW_5-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
