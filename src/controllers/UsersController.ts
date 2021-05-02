@@ -6,8 +6,12 @@ class UsersController {
         const { email } = req.body;
         const userService = new UsersService();
 
-        const user = await userService.create(email);
-        return res.status(200).json(user);
+        try {
+            const user = await userService.create(email);
+            return res.status(200).json(user);            
+        } catch (error) {
+            return res.status(400).json({ message: error.message });
+        }
     }
 }
 
